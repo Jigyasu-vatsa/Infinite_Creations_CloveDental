@@ -207,68 +207,88 @@
 	margin-left:auto;
 	margin-right:auto;
 	width:90%;
-	height: 50%;
-	padding:2%
-	background-color:green;
-	border:solid;
+	height: 55%;
+	padding:2%;
+	/*background-color:white;
+	border:solid;*/
 }
 .part8a{
 	float:left;
 	margin-left:auto;
 	margin-right:auto;
-	width:49%;
+	width:37%;
 	height:100%;
-	padding:1%
-	background-color:yellow;
-	border:solid;
+	padding:1%;
+	/*background-color:rgba(165, 190, 136, 0.2);
+	border-radius:2%;
+	border:solid;*/
 }
+
+.part8abox{
+	padding:10%;
+	height:90%;
+	background-color:rgba(165, 190, 136, 0.2);
+	border-radius:2%;
+	/*border:solid;*/
+}
+
 .part8b{
 	float:left;
 	margin-left:auto;
 	margin-right:auto;
-	width:49%;
+	width:55%;
 	height:100%;
-	padding:1%
-	background-color:blue;
-	border:solid;
+	padding:0% 2% 2% 2%;
+	/*background-color:blue;*/
+	border-radius:2%;
+	border:none;
 }
 .part8ba{
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	height:49%;
-	padding:1%
-	background-color:white;
-	border:solid;
+	height:55%;
+	padding:1%;
+	background-color:rgba(232, 133, 255, 0.2);
+	border-radius:2%;
+	/*border:solid;*/
 }
 .part8bb{
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	height:49%;
-	padding:1%
-	background-color:gray;
-	border:solid;
+	height:45%;
+	padding:2% 1% 1% 0%;
+	/*background-color:gray;
+	border-radius:2%;
+	border:solid;*/
 }
 .part8bb1{
 	float:left;
 	margin-left:auto;
 	margin-right:auto;
-	width:48%;
-	height: 100%;
-	padding:1%
-	background-color:red;
-	border:solid;
+	width:45%;
+	height: 95%;
+	padding:2%;
+	background-color:rgba(232, 133, 255, 0.2);;
+	border-radius:2%;
+	/*border:solid;*/
 }
+
+.part8bb1box{
+	text-align:center;
+}
+
 .part8bb2{
 	float:left;
-	margin-left:auto;
+	margin-left:1%;
 	margin-right:auto;
-	width:48%;
-	height:100%;
-	padding:1%
-	background-color:black;
-	border:solid;
+	width:45%;
+	height:95%;
+	padding:2%;
+	background-color:rgba(232, 180, 194, 0.3);
+	border-radius:2%;
+	/*border:solid;*/
 }
 
 
@@ -412,9 +432,6 @@
 
 
 
-
-
-
 <div style="width:100%;height:13%;">
 <div style="width:45%;float:left;">
 <div class="flip" style="width=80%;height=20px;">
@@ -461,11 +478,6 @@ Success
 
 </div>
 </div>
-
-
-
-
-
 
 
 
@@ -535,7 +547,7 @@ function closeForm() {
 
 
 
-<div style="margin-left:auto; margin-right:auto; width:90%; border:none; background-color:rgb(240, 240, 240); padding:2%; border-radius:4%/4%;">
+<div style="margin-left:auto; margin-right:auto; width:90%; border:none; background-color:rgba(165, 190, 136, 0.1); padding:2%; border-radius:4%/4%;">
 <h1 style="text-align:center;">All entered resorts from simple cleaning<br>to full mouth rehabilitation under one roof</h1>
 <div style="width:100%; padding:1%;">
 <img src="p1.jpg"  class="treat"  style="width:14%;  padding:1%;" alt="Root Canal Treatment">
@@ -551,7 +563,7 @@ function closeForm() {
 <img src="p11.jpg"  class="treat"  style="width:14%;  padding:1%;" alt="Dental implants ">
 <img src="p12.jpg"  class="treat"  style="width:14%;  padding:1%;" alt="smile makeover">
 </div>
-<h2 style="text-align:center;"><img src="searchicon.jpg" style="width:2%; height:2%"><u><b>Explore Treatments</b></u><em style="color:orange;">   &#8594;</em></h3>
+<h2 style="text-align:center;"><img src="searchicon.jpg" style="width:2%; height:2%"><u><b>Explore Treatments</b></u><em style="color:orange;"> &nbsp;  &#8594;</em></h3>
 </div>
 
 
@@ -561,18 +573,73 @@ function closeForm() {
 
 <div class="part8">
 <div class="part8a">
-I'm part8a
+
+<div class="part8abox" style="width:60%; margin-left:auto;margin-right:auto;">
+
+<h1 Style="text-align:centre;">Expert Guidance For Healthy Smiles</h1>
+<h4>Contact Now</h4>
+
+<fieldset style="margin-left:2%; margin-top:2%;font-size:100%;border:solid;color:black;background-color:white; border-radius:20px; padding: 2% 5% 2% 5%; max-width:75%; border-width:1px;">
+  <legend>Name</legend>
+<input type="text" id="fullname" style="border:none; color:black;background-color:white;font-size:100%; border-radius:20px; padding: 2% 5% 2% 5%; min-width:90%; max-width:100%; border-width:1px;" name="fullname" placeholder="Jigyasu Vatsa" value="">
+</fieldset>
+<br>
+<fieldset style="margin-top:2%; margin-left:2%;font-size:100%;border:solid;color:black;background-color:white; border-radius:20px; padding: 2% 5% 2% 5%; max-width:75%; border-width:1px;">
+  <legend>Mobile</legend>
+<input type="text" id="Mob" style="border:none; color:black;background-color:white;font-size:100%; border-radius:20px; padding: 2% 5% 2% 5%;min-width:90%; max-width:100%; border-width:1px;" name="Mob" placeholder="9876543210" value="">
+</fieldset>
+<br>
+
+<select name="city" placeholder="Search Your City...." style="margin-top:3%;margin-left:2%; font-size:100%;border:solid; border-radius:20px; padding: 2% 16% 2% 7%; min-width:85%; max-width:90%; border-width:1px;">
+<option>Search Concern</option>
+<option value="00">Root Canal</option>
+<option value="01">Braces</option>
+<option value="02">Teeth Whitening</option>
+<option value="03">Invisible Braces</option>
+<option value="04">Kids Dentistry</option>
+<option value="05">Crown and Breezes</option>
+<option value="06">Dental Implants</option>
+<option value="07">Smile Makeover</option>
+<option value="08">Gum Treatment</option>
+<option value="09">Wisdom Tooth</option>
+<option value="110">Laser Dentistry</option>
+<option value="111">Dentures</option>
+
+</select>
+<input type="button" size="5" style="color:white; margin-left:1.5%; background-color:orange; font-size:100%;border:solid; border-radius:20px; padding: 2% 10% 2% 7%; margin-top:10%; min-width:85%; max-width:90%; border-width:1px;" value="Book A Free Consultation" onclick="sampleform.submit()">
 </div>
+
+
+</div>
+
 <div class="part8b">
 <div class="part8ba">
-I'm part8ba
+
+<div class="part8babox" style="width:85%; margin-left:auto;margin-right:auto;">
+<img src="10xSafety.jpg" style="float:right; margin-top:0%; width:35%; height:90%">
+<h1>10X Safety Protocols</h1>
+
+<h3 style="margin-top:18%;"><b><u>Learn More</u></b>&nbsp; &nbsp; &#8594;</h3>
 </div>
+
+</div>
+
 <div class="part8bb">
+
 <div class="part8bb1">
-I'm part8bb1
+<div class="part8bb1box">
+<h2>450+ Neighbourhood</h2><p>Clinics Pan India<p>
+<img src="LocateClinic.jpg" style="width:35%; height:35%;">
+<p><b><u>Locate Clinic near you</u>&nbsp;<em style="color:orange;"> &nbsp;  &#8594;</em></b></p>
 </div>
+</div>
+
 <div class="part8bb2">
-I'm part8bb2
+<div class="part8bb1box">
+<h3>1200+ Expert Doctors</h3><p>Covering All Specialities</p>
+<img src="ExpDentist.jpg" style="width:35%; height:35%;">
+<p><b><u>Explore Dentists Nearby</u>&nbsp;<em style="color:orange;"> &nbsp;  &#8594;</em></b></p>
+</div>
 </div>
 </div>
 </div>
